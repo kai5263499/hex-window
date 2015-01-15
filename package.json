@@ -1,0 +1,32 @@
+{
+  "name": "hex-window",
+  "version": "1.0.0",
+  "description": "Generates sliding windows of hex bounds",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test-node",
+    "test-node": "./node_modules/mocha/bin/mocha -R spec ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kai5263499/hex-window.git"
+  },
+  "keywords": [
+    "hex",
+    "window",
+    "batch"
+  ],
+  "author": "Wes Widner",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/kai5263499/hex-window/issues"
+  },
+  "homepage": "https://github.com/kai5263499/hex-window",
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^4.4.2"
+  },
+  "dependencies": {
+    "bignum": "^0.9.1"
+  }
+}
